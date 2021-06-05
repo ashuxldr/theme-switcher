@@ -1,11 +1,10 @@
 import React, { useContext } from 'react'
 import ThemeContext from '../context/ThemeContext';
 import AppTheme from '../colors'
-const HeroSection = () => {
-    const theme = useContext(ThemeContext)[0];
-    const currentTheme = AppTheme[theme];
-    const [themeMode, setThemeMode] = useContext(ThemeContext);
 
+const HeroSection = () => {
+    const [theme, setTheme] = useContext(ThemeContext);
+    const currentTheme = AppTheme[theme];
 
     return (
         <div
@@ -25,7 +24,7 @@ const HeroSection = () => {
                 color: "#fff",
                 border: `${currentTheme.border}`
             }} onClick={() => {
-                setThemeMode(themeMode === 'dark' ? 'light' : 'dark')
+                setTheme(theme === 'dark' ? 'light' : 'dark')
             }} >Click Me</button>
         </div>
     )
