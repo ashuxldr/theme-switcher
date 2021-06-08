@@ -1,12 +1,14 @@
 a{
     text-decoration: none !important;
 }
+*{
+    color:white;
+}
 .hero-bg a:hover{
     color: black;
 }
 .hero-bg{
-    background-color: #212529!important;
-
+    background-color: #212529 !important;
     height: 50vh;
     background-size: cover;
     background-position: top;
@@ -19,36 +21,36 @@ a{
 .hero-register{
     background-color: white;
     border-radius: 30px;
-    color: rgb(42, 175, 161);
+    color: rgb(0, 88, 80);
 }
 .hero-subtext{
-    color: darkred;
+    color: rgb(224, 0, 0);
 }
 
 
 .why-vedic{
-    background-color: #00aae1;
+    background-color: #00384b;
 }
 .course{
-    background-color: lightcyan;
+    background-color: rgb(0, 82, 82);
 }
 .course h2{
     color:rgb(18, 66, 97);
 }
 
 .course-live{
-    background-color: rgb(42, 175, 161);
+    background-color: white;
     border-radius: 30px;
-    color: white;
+    color: rgb(0, 99, 89);
 }
 .course-recorded{
-    background-color:rgb(18, 66, 97); ;
+    background-color:rgb(0, 51, 85) ;
     border-radius: 30px;
     color: white;
 }
 
 .course a:hover{
-    color:white;
+    color:black;
 }
 .course-img{
     border-radius: 5rem;
@@ -56,7 +58,7 @@ a{
 
 .features{
     
-    background-color: rgb(18, 66, 97);
+    background-color: white;
 
 }
 .features h2{
@@ -65,25 +67,28 @@ a{
 
 .features .card {
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.07);
+    background-color: rgb(0, 42, 70);
     border: none;
 }
 
 
 .purchase h2{
-    color:rgb(18, 66, 97);
+    color:white;
 }
 .purchase p{
-    color:rgb(102,102,102);
+    color:white;
 }
 .fa-star{
     color: gold;
 }
 .purchase{
-    background-color: rgb(245, 250, 255);
+    background-color: rgb(0, 115, 230);
 }
 
 .purchase .card {
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.07);
+    background-color: rgb(0, 32, 65);
+    
     border: none;
     border-radius: 50px;
     overflow: hidden;
@@ -105,7 +110,4 @@ a{
 
 .learn h2{
     color:rgb(18, 66, 97);
-}
-.purchase {
-    background-color: lightsteelblue;
 }
